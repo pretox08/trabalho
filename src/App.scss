@@ -1,0 +1,101 @@
+.pagina-mercado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+  
+    header {
+      display: flex;
+      height: 22%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      background-color: #D42121;
+  
+  
+      img {
+        width: 16%;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  
+    main {
+      gap:10px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      height: 120vh;
+    }
+  
+    .tela-cadastro {
+      padding: 10px;
+      border: 2px solid #000;
+  
+      div {
+        margin: 15px;
+  
+        h5 {
+          font:15px 'Inter';
+          font-weight: 600;
+          
+        }
+  
+        input {
+          outline: none;
+          border: none;
+          background-color: #f1f1f1;
+        }
+  
+      
+      }
+  
+      .botao-adicionar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        margin-top: 30px;
+  
+        button {
+          background-color: #D42121;
+          padding: 10px;
+          border: none;
+          box-shadow: none;
+          font:17px 'Inter';
+          border-radius: 10px;
+          color:#fff;
+      }
+    }
+  
+  
+  }
+  table {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 80%;
+    height: 70vh;
+    align-items: center;
+    border: 2px solid black;
+  
+    thead {
+      text-align: center;
+    }
+  
+    tbody {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    tbody > tr {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      gap:30px;
+      margin-top: 20px;
+    }
+  }
+  }
